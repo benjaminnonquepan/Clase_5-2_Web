@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Clase 5to 2da</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap">
+    <a href="index.html" class="site-title">Clase<span>5*2</span></a>
+    <nav>
+      <ul class="subject-nav">
+        <li><a href="lengua.html" disabled>Lengua</a></li>
+        <li><a href="matematica.html">Matematica</a></li>
+        <li><a href="fisica.html">Fisica</a></li>
+        <li><a href="quimica.html">Química</a></li>
+        <li><a href="historia.html">Historia</a></li>
+        <li><a href="geografia.html">Geografía</a></li>
+        <li><a href="desarrollo.html">Desarrollo</a></li>
+        <li><a href="software.html">Software</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+
+<main class="wrap">
+  <section class="subject-hero">
+    <h1>Bienvenidos a la <span style="color: #f7ebee">Clase</span>5*2</h1>
+    <p>En esta página se publicará información sobre lo que estamos aprendiendo, tareas, y horarios.</p>
+  <ul class="warning-list" style="margin-top: 10px;">
+      <li>
+        <span class="topic-date">Advertencia!</span>
+        La página está en desarrollo, por lo que momentáneamente funcionan únicamente las páginas de Desarrollo, Historia y Software.
+      </li>
+</ul>
+  <section class="subjects" style="padding-bottom: 20px;">
+    <h2>Asignaciones</h2>
+    <div class="subject-grid">
+      <a class="subject-card" href="matematica.html" style="--card-color: var(--mate)">
+        <span class="name">Matemática</span>
+        <span class="hint">Lo que estamos aprendiendo →</span>
+      </a>
+      <a class="subject-card" href="lengua.html" style="--card-color: var(--lengua)">
+        <span class="name">Lengua y Literatura</span>
+        <span class="hint">2da Lectura oral de libro →</span>
+      </a>
+      <a class="subject-card" href="historia.html" style="--card-color: var(--historia)">
+        <span class="name">Historia</span>
+        <span class="hint">Lo que estamos aprendiendo →</span>
+      </a>
+      <!-- ADD A NEW SUBJECT CARD: copy one <a> block above,
+           change the href, name, and --card-color -->
+    </div>
+  </section>
+<hr>
+<section class="week">
+  <h2>Horarios</h2>
+  <table class="week-table">
+    <thead>
+      <tr>
+        <th>Time</th>
+        <th data-day="lunes">Lunes</th>
+        <th data-day="martes">Martes</th>
+        <th data-day="miercoles">Miércoles</th>
+        <th data-day="jueves">Jueves</th>
+        <th data-day="viernes">Viernes</th>
+      </tr>
+    </thead>
+    <tbody>
+ <tr>
+        <td>07:45 a 08:25</td>
+        <td data-day="lunes">Electrónica</td>
+        <td data-day="martes">EF - Tincoff P.</td>
+        <td data-day="miercoles">Intal. Mant. Redes I</td>
+        <td data-day="jueves">Desarrollo II</td>
+        <td data-day="viernes">Hardware II</td>
+      </tr>
+      <tr>
+        <td>08:25 a 09:05</td>
+        <td data-day="lunes">Electrónica</td>
+        <td data-day="martes">8:00 a 9:00</td>
+        <td data-day="miercoles">Intal. Mant. Redes I</td>
+        <td data-day="jueves">Desarrollo II</td>
+        <td data-day="viernes">Hardware II</td>
+      </tr>
+      <tr>
+        <td>09:15 a 09:55</td>
+        <td data-day="lunes">Electrónica</td>
+        <td data-day="martes" class="empty">—</td>
+        <td data-day="miercoles">Intal. Mant. Redes I</td>
+        <td data-day="jueves">EF - Tincoff P.</td>
+        <td data-day="viernes">Conv. Rep. Datos</td>
+      </tr>
+      <tr>
+        <td>09:55 a 10:35</td>  
+        <td data-day="lunes" class="empty">—</td>
+        <td data-day="martes">Hardware II</td>
+        <td data-day="miercoles">Intal. Mant. Redes I</td>
+        <td data-day="jueves">09:00 a 10:00</td>
+        <td data-day="viernes">Conv. Rep. Datos</td>
+      </tr>
+      <tr>
+        <td>10:45 a 11:25</td>
+        <td data-day="lunes" class="empty">—</td>
+        <td data-day="martes">Hardware II</td>
+        <td data-day="miercoles">Desarrollo II</td>
+        <td data-day="jueves" class="empty">—</td>
+        <td data-day="viernes">Conv. Rep. Datos</td>
+      </tr>
+      <tr>
+        <td>11:25 a 12:05</td>
+        <td data-day="lunes" class="empty">—</td>
+        <td data-day="martes" class="empty">—</td>
+        <td data-day="miercoles">Desarrollo II</td>
+        <td data-day="jueves" class="empty">—</td>
+        <td data-day="viernes" class="empty">—</td>
+      </tr>
+      <tr>
+        <td>12:05 a 12:45</td>
+        <td data-day="lunes" class="empty">—</td>
+        <td data-day="martes" class="empty">—</td>
+        <td data-day="miercoles" class="empty">—</td>
+        <td data-day="jueves" class="empty">—</td>
+        <td data-day="viernes" class="empty">—</td>
+      </tr>
+      <tr>
+        <td>12:50 a 13:30</td>
+        <td data-day="lunes" class="empty">—</td>
+        <td data-day="martes">Software II</td>
+        <td data-day="miercoles" class="empty">—</td>
+        <td data-day="jueves" class="empty">—</td>
+        <td data-day="viernes" class="empty">—</td>
+      </tr>
+      <tr>
+        <td>13:30 a 14:10</td>
+        <td data-day="lunes">Aprec sist tópicos</td>
+        <td data-day="martes">Software II</td>
+        <td data-day="miercoles" class="empty">—</td>
+        <td data-day="jueves">Matemática</td>
+        <td data-day="viernes" class="empty">—</td>
+      </tr>
+      <tr>
+        <td>14:10 a 14:50</td>
+        <td data-day="lunes">Aprec sist tópicos</td>
+        <td data-day="martes">Software II</td>
+        <td data-day="miercoles">Física</td>
+        <td data-day="jueves">Matemática</td>
+        <td data-day="viernes">Inglés</td>
+      </tr>
+      <tr>
+        <td>15:00 a 15:40</td>
+        <td data-day="lunes">Aprec sist tópicos</td>
+        <td data-day="martes">Software II</td>
+        <td data-day="miercoles">Física</td>
+        <td data-day="jueves">Geografía</td>
+        <td data-day="viernes">Inglés</td>
+      </tr>
+      <tr>
+      <tr>
+        <td>15:40 a 16:20</td>
+        <td data-day="lunes">Historia</td>
+        <td data-day="martes">Matemática</td>
+        <td data-day="miercoles">Física</td>
+        <td data-day="jueves">Geografía</td>
+        <td data-day="viernes">Inglés</td>
+      </tr>
+      <tr>
+        <td>16:30 a 17:10</td>
+        <td data-day="lunes">Historia</td>
+        <td data-day="martes">Matemática</td>
+        <td data-day="miercoles">Lengua y Literatura</td>
+        <td data-day="jueves">Química</td>
+        <td data-day="viernes" class="empty">—</td>
+      </tr>
+      <tr>
+        <td>17:10 a 17:50</td>
+        <td data-day="lunes">Tutoría</td>
+        <td data-day="martes" class="empty">—</td>
+        <td data-day="miercoles">Lengua y Literatura</td>
+        <td data-day="jueves">Química</td>
+        <td data-day="viernes" class="empty">—</td>
+      </tr>
+      <tr>
+        <td>17:50 a 18:30</td>
+        <td data-day="lunes" class="empty">—</td>
+        <td data-day="martes" class="empty">—</td>
+        <td data-day="miercoles">Lengua y Literatura</td>
+        <td data-day="jueves">Química</td>
+        <td data-day="viernes" class="empty">—</td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+</main>
+
+<footer class="wrap">
+  <center><strong>Big niggas class 5°2 — ©La mejor clase™</strong></center>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
