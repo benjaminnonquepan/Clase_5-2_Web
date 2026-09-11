@@ -294,6 +294,17 @@ footer {
   .today-list li { flex-direction: column; gap: 2px; }
 }
 
+@media (max-width: 768px) {
+    .week {
+        width: 100%;
+        overflow-x: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
+    .week-table {
+        min-width: 700px;
+    }
+}
 
 /*------notes------*/
 
